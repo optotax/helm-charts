@@ -193,7 +193,7 @@ spec:
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: {{ include "temporal.componentname" (list . "es-index-setup") }}
+  name: {{ include "temporal.componentname" (list . "-setup") }}
   labels:
     app.kubernetes.io/name: {{ include "temporal.name" . }}
     helm.sh/chart: {{ include "temporal.chart" . }}

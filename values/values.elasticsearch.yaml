@@ -1,6 +1,6 @@
 elasticsearch:
   enabled: false
-  external: true
+  external: false
   host: "elasticsearch-master-headless"
   port: "9200"
   version: "v7"

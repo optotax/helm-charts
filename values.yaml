@@ -281,7 +281,7 @@ schema:
     backoffLimit: 100
 
 elasticsearch:
-  enabled: true
+  enabled: false
   replicas: 3
   persistence:
     enabled: false
@@ -296,12 +296,12 @@ elasticsearch:
   visibilityIndex: "temporal-visibility-dev"
 
 prometheus:
-  enabled: true
+  enabled: false
   nodeExporter:
     enabled: false
 
 grafana:
-  enabled: true
+  enabled: false
   replicas: 1
   testFramework:
     enabled: false
